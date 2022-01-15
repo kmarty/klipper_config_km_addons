@@ -10,8 +10,10 @@ I only remixed it to suit my needs.
 ### 1. Include macro in your printer.cfg
 After lines:
 ```
+#############################################################################################################
 ### USER OVERRIDES
-# Place all your overrides here
+### Anything custom you want to add, or RatOS configuration you want to override, do it here.
+#############################################################################################################
 ```
 add the following:
 ```
