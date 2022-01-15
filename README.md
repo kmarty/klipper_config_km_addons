@@ -21,7 +21,7 @@ include files from "klipper_config_addons", e.g.:
 ### 3. Update Moonraker for easy updating
 From Fluidd/Mainsail, edit moonraker.conf (in the same folder as your printer.cfg file) and add:
 ```
-[update_manager km_addons]
+[update_manager KM_addons]
 type: git_repo
 path: ~/klipper_config/km_addons
 origin: https://github.com/kmarty/klipper_config_km_addons.git
