@@ -4,7 +4,7 @@
 SSH into the RPi and run the following commands:
 ```
 cd ~/klipper_config
-git clone https://github.com/kmarty/klipper_config_addons.git
+git clone https://github.com/kmarty/klipper_config_km_addons.git
 ```
 ### 2. Include files in you printer.cfg
 After lines:
@@ -16,5 +16,5 @@ After lines:
 ```
 include files from "klipper_config_addons", e.g.:
 ```
-[include klipper_config_kmarty_addons/flexplate.cfg]
+[include klipper_config_km_addons/flexplate.cfg]
 ```
