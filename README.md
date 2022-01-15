@@ -1,6 +1,7 @@
 # My klipper_config mods/addons
 
 ## Setup
+### 1. Download and install
 SSH into the RPi and run the following commands:
 ```
 cd ~/klipper_config
