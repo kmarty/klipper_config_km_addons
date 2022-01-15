@@ -1,4 +1,5 @@
 # My klipper_config mods/addons
+It is mainly adapted for RatOS which I use with Vcore3.
 
 ## Setup
 ### 1. Download and install
