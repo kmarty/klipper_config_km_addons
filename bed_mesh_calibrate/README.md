@@ -69,6 +69,10 @@ START_PRINT EXTRUDER_TEMP=[first_layer_temperature] BED_TEMP=[first_layer_bed_te
 ```
 AREA_START=%MINX%,%MINY% AREA_END=%MAXX%,%MAXY%
 ```
-*(Cura slicer plugin) To make the macro to work in Cura slicer, you need to install the post process plugin by frankbags - In cura menu Help -> Show configuration folder. - Copy the python script from the above link in to plugins folder. - Restart Cura - In cura menu Extensions -> Post processing and select Mesh Print Size.
+*(Cura slicer plugin) To make the macro to work in Cura slicer, you need to install the [post process plugin by frankbags](https://gist.github.com/frankbags/c85d37d9faff7bce67b6d18ec4e716ff)
+- In cura menu `Help` -> `Show configuration folder`
+- Copy the python script from the above link in to `scripts` folder
+- Restart Cura
+- In cura menu `Extensions` -> `Post processing` -> `Modify G-Code` and select `Mesh Print Size`.
 
 I don't use Cura, I can't confirm the guide works.
