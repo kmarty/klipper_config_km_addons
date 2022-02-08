@@ -16,9 +16,10 @@ After lines:
 ### Anything custom you want to add, or RatOS configuration you want to override, do it here.
 #############################################################################################################
 ```
-include files from "klipper_config_addons", e.g.:
+include files from "km_addons", e.g.:
 ```
-[include klipper_config_km_addons/flexplate.cfg]
+[include klipper_config/km_addons/flexplate.cfg]
+[include klipper_config/km_addons/ZIGZAG.cfg]
 ```
 ### 3. Update Moonraker for easy updating
 From Fluidd/Mainsail, edit moonraker.conf (in the same folder as your printer.cfg file) and add:
