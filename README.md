@@ -31,5 +31,5 @@ is_system_service: False
 ```
 
 ## Available single extra macros
-GENERATE_BELTS_TENSION_GRAPH - create graph usefull(?) for belt equal belts tensioning
-ZIGZAG - helper for moving axis back and forth (action, the "A" parameter, can be "start" (starts moving until ZIGZAG A=stop is called) or "once" which makes move only once)
+- GENERATE_BELTS_TENSION_GRAPH - create graph usefull(?) for belt equal belts tensioning
+- ZIGZAG - helper for moving axis back and forth (action, the "A" parameter, can be "start" (starts moving until ZIGZAG A=stop is called) or "once" which makes move only once)
