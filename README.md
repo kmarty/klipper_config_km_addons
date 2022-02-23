@@ -37,4 +37,4 @@ Management of print plates and their z-offset. Detailed description is at the be
 ## Available single extra macros
 - GENERATE_BELTS_TENSION_GRAPH - create graph usefull(?) for belt equal belts tensioning
 - ZIGZAG - helper for moving axis back and forth (action, the "A" parameter, can be "start" (starts moving until ZIGZAG A=stop is called) or "once" which makes move only once)
-- PA_CALIBRATE - prints PA calibration pattern. Depends on START_PRINT, END_PRINT macros and firmware retractions. If flexplate.cfg is used, it will be used here as well. Numerous predefined values can be altered using parameters (detail at the beginning of the file)
+- PA_CALIBRATE - prints PA calibration pattern. Depends on START_PRINT, END_PRINT macros and firmware retractions. If flexplate.cfg is used, it will be used here as well. Numerous predefined values can be altered using parameters (details at the beginning of the file)
